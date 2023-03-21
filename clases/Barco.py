@@ -5,7 +5,7 @@ from itertools import product, repeat
 from random import choice
 
 from juego import HORIZONTAL, LONGITUDES_BARCOS, ORIENTACIONES
-
+from clases.Conventions import tablero_num_columnas, tablero_num_lineas, generar_num_linea, generar_num_columna
 
 instances = []
 casillas_ocupadas = set()

@@ -1,10 +1,13 @@
 
 """Clase que contiene los atributos y los métodos estáticos"""
-
 tablero_num_lineas = 10
 tablero_num_columnas = 10
 
 barcos_longitud = [2, 3, 3, 4, 4, 5]
+'''
+@staticmethod es un decorador que indica que el método no necesita de una instancia de la clase para ser llamado.
+NO PERMITE ACCEDER A LOS ATRIBUTOS DE LA CLASE (self)
+'''
 
 @staticmethod
 def generar_num_linea(x):
@@ -17,5 +20,4 @@ def generar_num_columna(y): # y es un entero
 @staticmethod
 def generar_nombre_casilla(x, y):
     return generar_num_linea(x) +\
-           generar_num_columna(y) #Concatenacion: linea+ columna
-
+           generar_num_columna(y) #Concatenacion: linea + columna

@@ -30,6 +30,8 @@ def __init__(self):
   self.etiqueta_columnas = [num2c(x) for x in range(num_columnas)]
   trazo_horizontal = " --" + "+---" * 10 + "+"
 
+
+
 def ver(self):
   print("   |", " | ".join(self.etiqueta_columnas), "|")
   
