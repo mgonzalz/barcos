@@ -1,4 +1,4 @@
-import Conventions
+from clases import Conventions
 import Case
 from itertools import product, repeat
 from random import choice
