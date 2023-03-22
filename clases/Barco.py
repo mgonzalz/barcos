@@ -1,5 +1,5 @@
-import Conventions as Conventions
-import Case as Case
+import Conventions
+import Case
 from itertools import product, repeat
 from random import choice
 

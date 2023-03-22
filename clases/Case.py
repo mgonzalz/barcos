@@ -1,5 +1,5 @@
 from numpy import product
-from .. import juego
+from ..juego import *
 from Conventions import (
     tablero_num_lineas,
     tablero_num_columnas,
@@ -55,7 +55,7 @@ class Case:
   def __str__(self):
     """Sobrecarga del método de transformación en cadena"""
     if not self.jugada:
-        return juego.CASO_NO_JUGADO
+        return CASO_NO_JUGADO
     elif self.barco is None:
-        return juego.CASO_AGUA
-    return juego.CASO_TOCADO
+        return CASO_AGUA
+    return CASO_TOCADO
