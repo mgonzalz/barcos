@@ -59,7 +59,7 @@ def instanciar(self): # Instanciar el barco
         return
 
 
-
+'''GENERADOR DE BARCOS: METODO'''
 @staticmethod
 def generar_barcos(self):
         while True:

@@ -5,9 +5,15 @@ tablero_num_columnas = 10
 
 barcos_longitud = [2, 3, 3, 4, 4, 5]
 '''
-@staticmethod es un decorador que indica que el método no necesita de una instancia de la clase para ser llamado.
-NO PERMITE ACCEDER A LOS ATRIBUTOS DE LA CLASE (self)
-@classmethod es un decorador que indica que el método necesita de una instancia de la clase para ser llamado.
+@staticmethod es un decorador que permite definir un método estático, sirve para crear métodos que no necesitan de una instancia* de la clase para ser llamados.
+no modificará el estado de la instancia ni de la clase
+
+
+@classmethod es un decorador que permite definir un método de clase, sirve para crear métodos que no necesitan de una instancia* de la clase para ser llamados.
+
+*Una instancia es un objeto que se crea a partir de una clase. Por ejemplo, si tenemos una clase llamada Perro, 
+podemos crear tantos objetos Perro como queramos,
+cada uno de ellos será una instancia de la clase Perro.
 '''
 @staticmethod
 def generar_num_linea(x):
