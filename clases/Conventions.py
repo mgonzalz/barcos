@@ -7,6 +7,7 @@ barcos_longitud = [2, 3, 3, 4, 4, 5]
 '''
 @staticmethod es un decorador que indica que el método no necesita de una instancia de la clase para ser llamado.
 NO PERMITE ACCEDER A LOS ATRIBUTOS DE LA CLASE (self)
+@classmethod es un decorador que indica que el método necesita de una instancia de la clase para ser llamado.
 '''
 @staticmethod
 def generar_num_linea(x):
